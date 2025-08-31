@@ -27,8 +27,8 @@ class IntelligentBusinessAssistant:
 
        
         # Google Drive configuration
-        self.google_drive_file_id = "17Uj56WrAf-FXfyFHhZMk7efyDYyMNWOr"
-        self.credentials_file = "cardetail-ai-959d1fe801f2.json"
+        self.google_drive_file_id = "#################"
+        self.credentials_file = "#################"
         
         # Initialize services
         self.anthropic_client = anthropic.Anthropic(api_key=self.anthropic_api_key)
@@ -782,4 +782,5 @@ if __name__ == '__main__':
     print("   - South African Date/Time Context") 
     print("   - Smart Week Number Calculation (1-4 per month)")
     print("   - Enhanced Business Intelligence")
+
     app.run(host='0.0.0.0', port=5000, debug=True)
